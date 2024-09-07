@@ -20,7 +20,7 @@ const Mission = () => {
         <div className="relative h-auto lg:h-72 rounded-xl lg:rounded-l-full bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 shadow-2xl p-4 lg:p-0">
           <div className="relative p-4 lg:p-16 flex justify-center text-center text-black lg:text-2xl">
             <p className='text-center'>
-              Medical Veda is an innovative platform set to revolutionize healthcare by creating a leading open-source health ecosystem. It decentralizes patient data ownership, giving patients full control and secure access for authorized personnel. This ensures healthcare providers can access the necessary data, paving the way for a transformative future in healthcare.
+              AI Protocol is an innovative platform set to revolutionize healthcare by creating a leading open-source health ecosystem. It decentralizes patient data ownership, giving patients full control and secure access for authorized personnel. This ensures healthcare providers can access the necessary data, paving the way for a transformative future in healthcare.
             </p>
           </div>
 

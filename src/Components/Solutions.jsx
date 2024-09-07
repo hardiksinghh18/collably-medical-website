@@ -10,7 +10,7 @@ const Solutions = () => {
             </div>
 
             <div className='flex flex-col items-center '>
-                <h2 className='text-3xl lg:text-4xl font-[900] text-[#6adb68] my-8'>MedicalVeda Solutions</h2>
+                <h2 className='text-3xl lg:text-4xl font-[900] text-[#6adb68] my-8'>AI Protocol Solutions</h2>
 
 
                 <p className='text-center lg:text-xl'>

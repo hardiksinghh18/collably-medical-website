@@ -13,9 +13,9 @@ const OurBlog = () => {
             <div className='flex flex-col lg:flex-row justify-around w-full px-6 lg:px-24 gap-4 lg:gap-8'>
                 <div ><img  className='w-[120rem]  lg:h-full'src={OurblogImg1} alt="" /></div>
                 <div className='flex flex-col gap-2 lg:gap-4'>
-                    <h3 className='text-md lg:text-2xl font-semibold'>  Exploring Different Products Offered by Medical Veda </h3>
+                    <h3 className='text-md lg:text-2xl font-semibold'>  Exploring Different Products Offered by AI Protocol </h3>
                     <p className='text-gray-400 text-xs'>June 16, 2023</p>
-                    <p className='text-xs lg:text-xl'>Medical Veda transforms the Canadian healthcare niche by providing relevant services to each of the end-users in the industry, including doctors, patients, hospitals, clinics, research organizations, and pharmacies. Veda Health Portal While blockchain happens…</p>
+                    <p className='text-xs lg:text-xl'>AI Protocol transforms the Canadian healthcare niche by providing relevant services to each of the end-users in the industry, including doctors, patients, hospitals, clinics, research organizations, and pharmacies. Veda Health Portal While blockchain happens…</p>
                     <button className=" flex w-fit justify-center items-center gap-2 bg-gradient-to-r from-[#7AFF75] to-[#2A89F4] text-white bg-opacity-10 px-8 py-2 text-xs lg:text-md rounded-full font-bold hover:cursor-pointer z-50 hover:text-black  transition duration-300">
                         Read More
                     </button>
@@ -24,7 +24,7 @@ const OurBlog = () => {
             <div className='flex flex-col lg:flex-row justify-around w-full px-6 lg:px-24 gap-4 lg:gap-8'>
                 <div ><img  className='w-[120rem] h-full'src={OurblogImg2} alt="" /></div>
                 <div className='flex flex-col gap-2 lg:gap-4'>
-                    <h3 className='text-sm lg:text-2xl font-semibold'> How Does Medical Veda Get Rid of Drug Prescription Fraud? </h3>
+                    <h3 className='text-sm lg:text-2xl font-semibold'> How Does AI Protocol Get Rid of Drug Prescription Fraud? </h3>
                     <p className='text-gray-400 text-xs'>June 16, 2023</p>
                     <p className='text-xs lg:text-xl'> If you look at it carefully, a drug prescription is a foremost thing that initiates a formal treatment. Therefore, its cruciality in any healthcare system is significantly high. Unfortunately, in recent years, there has been a surge in prescription fraud from a variety of actors...</p>
                     <button className=" flex w-fit justify-center items-center gap-2 bg-gradient-to-r from-[#7AFF75] to-[#2A89F4] text-white bg-opacity-10 px-8 py-2 text-xs lg:text-md rounded-full font-bold hover:cursor-pointer z-50 hover:text-black  transition duration-300">
@@ -35,9 +35,9 @@ const OurBlog = () => {
             <div className='flex flex-col lg:flex-row justify-around w-full px-6 lg:px-24 gap-4 lg:gap-8'>
                 <div ><img  className='w-[120rem] h-full'src={OurblogImg3} alt="" /></div>
                 <div className='flex flex-col gap-2 lg:gap-4'>
-                    <h3 className='text-sm lg:text-2xl font-semibold'>How Does Medical Veda Provide Efficient and Better Diagnosis in Canada?</h3>
+                    <h3 className='text-sm lg:text-2xl font-semibold'>How Does AI Protocol Provide Efficient and Better Diagnosis in Canada?</h3>
                     <p className='text-gray-400 text-xs'>June 16, 2023</p>
-                    <p className='text-xs lg:text-xl'>Medical Veda transforms the Canadian healthcare niche by providing relevant services to each of the end-users in the industry, including doctors, patients, hospitals, clinics, research organizations, and pharmacies. Veda Health Portal While blockchain happens…</p>
+                    <p className='text-xs lg:text-xl'>AI Protocol transforms the Canadian healthcare niche by providing relevant services to each of the end-users in the industry, including doctors, patients, hospitals, clinics, research organizations, and pharmacies. Veda Health Portal While blockchain happens…</p>
                     <button className=" flex w-fit justify-center items-center gap-2 bg-gradient-to-r from-[#7AFF75] to-[#2A89F4] text-white bg-opacity-10 px-8 py-2 text-xs lg:text-md rounded-full font-bold hover:cursor-pointer z-50 hover:text-black  transition duration-300">
                         Read More
                     </button>

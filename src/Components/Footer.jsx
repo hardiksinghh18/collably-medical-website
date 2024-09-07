@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaTelegramPlane } from "react-icons/fa";
-import logo from '../Images/LOGO.png';
+import aiProtocol from '../Images/aiProtocol.png';
 
 const Footer = () => {
     return (
@@ -32,7 +32,7 @@ const Footer = () => {
 
                 {/* Logo and Social Icons */}
                 <div className="text-center md:text-right flex flex-col items-center md:items-end gap-4">
-                    <img src={logo} alt="Medical Veda Logo" className="w-28 md:w-32" />
+                   <a href="/"> <img src={aiProtocol} alt="AI Protocol Logo" className="w-28 md:w-32" /></a>
                     <h4 className="text-lg">Stay Connected</h4>
                     <div className="flex space-x-4 text-2xl">
                         <a href="/" className="text-white hover:text-blue-500"><FaFacebook /></a>
@@ -46,7 +46,7 @@ const Footer = () => {
             {/* Footer Bottom Section */}
             <div className="text-center mt-8">
                 <p className="text-gray-400 text-sm">
-                    Copyright © 2024 MedicalVEDA. All rights reserved.
+                    Copyright © 2024 AI Protocol. All rights reserved.
                 </p>
             </div>
         </footer>

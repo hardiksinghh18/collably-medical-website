@@ -9,8 +9,8 @@ const Accordion = () => {
 
   return (
     <div className='mt-24 relative  flex flex-col justify-center items-center px-4'>
-             <div className='absolute bg-gradient-to-tr from-[#A2D29D] via-[#4E93DF4D] to-[#101010] top-[50%] left-[50%]  -translate-x-[50%] -translate-y-[50%] blur-3xl opacity-60 rounded-full -z-20   h-80 w-48 lg:w-[60rem] '></div>
-      
+      <div className='absolute bg-gradient-to-tr from-[#A2D29D] via-[#4E93DF4D] to-[#101010] top-[50%] left-[50%]  -translate-x-[50%] -translate-y-[50%] blur-3xl opacity-60 rounded-full -z-20   h-80 w-48 lg:w-[60rem] '></div>
+
 
       <h2 className=' text-3xl lg:text-5xl font-[900] text-[#6adb68] w-full text-center my-12'>Problems in the Industry</h2>
       {/* Accordion Wrapper */}
