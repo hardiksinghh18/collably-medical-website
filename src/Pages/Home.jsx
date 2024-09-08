@@ -9,25 +9,23 @@ import Solutions from '../Components/Solutions'
 import Partners from '../Components/Partners'
 import Team from '../Components/Team'
 import OurBlog from '../Components/OurBlog'
-import Footer from '../Components/Footer'
-import Navbar from '../Components/Navbar'
 
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
+   
       <Hero/>
       <MedivedaSection/>
-      <Mission/>
       <Vision/>
+      <Mission/>
       <CardSection/>
       <DropDown/>
       <Solutions/>
       <Partners/>
       <Team/>
       <OurBlog/>
-      <Footer/>
+      
     </>
   )
 }

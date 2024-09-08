@@ -8,7 +8,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className='mt-24 relative  flex flex-col justify-center items-center px-4'>
+    <div className='md:mt-16 relative  flex flex-col justify-center items-center px-4'>
       <div className='absolute bg-gradient-to-tr from-[#A2D29D] via-[#4E93DF4D] to-[#101010] top-[50%] left-[50%]  -translate-x-[50%] -translate-y-[50%] blur-3xl opacity-60 rounded-full -z-20   h-80 w-48 lg:w-[60rem] '></div>
 
 
@@ -29,9 +29,13 @@ const Accordion = () => {
             </svg>
           </button>
           <div className={`overflow-hidden transition-all duration-500 ${openIndex === 1 ? 'max-h-96' : 'max-h-0'}`}>
-            <div className="py-4 px-6 text-gray-300">
+            <div className="py-4 px-6 text-gray-300 font-md">
               {/* Content for Item 1 */}
-              <p>Detailed information about health records and data issues goes here.</p>
+              <p> - Restrictive database that are accessible to respective hospital only</p>
+
+              <p>- Medical data is fragmented in different systems</p>
+
+              <p>- Users can't access and control their own medical data</p>
             </div>
           </div>
         </div>
@@ -49,9 +53,11 @@ const Accordion = () => {
             </svg>
           </button>
           <div className={`overflow-hidden transition-all duration-500 ${openIndex === 2 ? 'max-h-96' : 'max-h-0'}`}>
-            <div className="py-4 px-6 text-gray-300">
+            <div className="py-4 px-6 text-gray-300 font-md">
               {/* Content for Item 2 */}
-              <p>Details about medical and healthcare service issues go here.</p>
+            <p>  - Lack of transparency in patient admission</p>
+            <p>  - Breaches of agreements</p>
+            <p>  - Time consuming initial diagnosis</p>
             </div>
           </div>
         </div>
@@ -69,9 +75,10 @@ const Accordion = () => {
             </svg>
           </button>
           <div className={`overflow-hidden transition-all duration-500 ${openIndex === 3 ? 'max-h-96' : 'max-h-0'}`}>
-            <div className="py-4 px-6 text-gray-300">
+            <div className="py-4 px-6 text-gray-300 font-md">
               {/* Content for Item 3 */}
-              <p>Information about security issues goes here.</p>
+              <p>- Centralized database are prone to hacks </p>
+              <p>- No mechanism for checking authenticity of counterfeit products</p>
             </div>
           </div>
         </div>
@@ -89,9 +96,9 @@ const Accordion = () => {
             </svg>
           </button>
           <div className={`overflow-hidden transition-all duration-500 ${openIndex === 4 ? 'max-h-96' : 'max-h-0'}`}>
-            <div className="py-4 px-6 text-gray-300">
+            <div className="py-4 px-6 text-gray-300 font-md">
               {/* Content for Item 4 */}
-              <p>Details about health issues go here.</p>
+              <p>- Patients can't access second-opinion because of restrictive information exchange</p>
             </div>
           </div>
         </div>

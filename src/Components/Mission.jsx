@@ -3,7 +3,7 @@ import missonImage from '../Images/mission.png';
 
 const Mission = () => {
   return (
-    <div className="relative w-full flex flex-col-reverse lg:flex-row items-center justify-center lg:h-screen">
+    <div className="relative w-full flex flex-col-reverse lg:flex-row items-center justify-center ">
       {/* Background Gradients */}
       <div className='absolute bg-gradient-to-tr from-[#A2D29D] via-[#4E93DF4D] to-[#101010] top-[10%] right-[0%] blur-3xl opacity-90 rounded-full h-full lg:w-96'></div>
       <div className='absolute bg-gradient-to-tr from-[#A2D29D] via-[#4E93DF4D] to-[#101010] bottom-[10%] left-[0%] blur-3xl opacity-90 rounded-full h-96 lg:w-96'></div>

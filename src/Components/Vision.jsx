@@ -9,7 +9,7 @@ const Vision = () => {
       <div className='absolute bg-gradient-to-tr from-[#A2D29D] via-[#4E93DF4D] to-[#101010] bottom-[10%] left-[0%] blur-3xl opacity-80 rounded-full h-96 w-96'></div>
 
       {/* Image Section (Right for large devices) */}
-      <div className='z-50 mb-12 lg:mb-0 lg:ml-0 lg:right-0'>
+      <div className='z-50 lg:mb-0 lg:ml-0 lg:right-0'>
         <img className='h-[10rem] md:h-[15rem] lg:h-[30rem] mx-auto' src={visionImage} alt="Vision" />
       </div>
 

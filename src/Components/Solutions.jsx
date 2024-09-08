@@ -2,7 +2,7 @@ import React from 'react'
 import solutionsImg from '../Images/solutions.png'
 const Solutions = () => {
     return (
-        <div className=' relative my-16 lg:my-24 flex flex-col-reverse lg:flex-row justify-between gap-8 items-center px-4 lg:px-16'>
+        <div className=' relative my-4 md:my-16 lg:my-24 flex flex-col-reverse lg:flex-row justify-between gap-8 items-center px-4 lg:px-16'>
               <div className='absolute bg-gradient-to-tr from-[#A2D29D] via-[#4E93DF4D] to-[#101010] bottom-32 blur-3xl opacity-60 rounded-full -z-20   h-48 lg:w-[40rem] '></div>
       
             <div >
